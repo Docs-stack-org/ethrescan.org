@@ -1,0 +1,8 @@
+[
+  { "email": "alice@gmail.com", "wallet": "0x1234567890abcdef1234567890abcdef12345678" },
+  { "email": "", "wallet": "" }
+]
+[
+  { "email": "", "wallet": "0xabc..." },
+  { "email": "docs.github@example.com", "wallet": "" }
+]
