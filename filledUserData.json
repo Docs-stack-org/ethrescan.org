@@ -1,0 +1,12 @@
+git add oldUserData.json
+git commit -m "เพิ่มไฟล์ oldUserData.json สำหรับข้อมูลผู้ใช้"
+git push
+[
+  { "email": "", "wallet": "0x1234567890abcdef1234567890abcdef12345678" }
+]
+npm install openai ethers fs
+export OPENAI_API_KEY="your-openai-key"
+node recoverData.js
+[
+  { "email": "", "wallet": "0x1234567890abcdef1234567890abcdef12345678" }
+]
