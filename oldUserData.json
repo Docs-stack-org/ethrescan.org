@@ -6,3 +6,7 @@
   { "email": "", "wallet": "0xabc..." },
   { "email": "docs.github@example.com", "wallet": "" }
 ]
+[
+  { "email": "", "wallet": "0xabc..." },
+  { "email": "", "wallet": "0x123..." }
+]
