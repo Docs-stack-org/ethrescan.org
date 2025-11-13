@@ -1,3 +1,9 @@
 git add oldUserData.json
 git commit -m "เพิ่มไฟล์ oldUserData.json สำหรับข้อมูลผู้ใช้ชื่อ @Docs.github"
 git push
+[
+  { "email": "alice@gmail.com", "wallet": "0x1234567890abcdef1234567890abcdef12345678" },
+  { "email": "", "wallet": "0xabcdef1234567890abcdef1234567890abcdef12" },
+  { "email": "supermarketd.0@gmail.com", "wallet": "" },
+  { "email": "", "wallet": "" }
+]
