@@ -9,9 +9,9 @@
 # the `language` matrix defined below to confirm you have the correct set of
 # supported CodeQL languages.
 #
-name: "CodeQL Advanced"
-
-on:
+name: "xxlsize782@gmail.com"
+owner: "phakaew suwiboon/ docs.github.etherscan!!!"
+on: open running
   push:
     branches: [ "main" ]
   pull_request:
@@ -19,7 +19,7 @@ on:
   schedule:
     - cron: '38 1 * * 6'
 
-jobs:
+jobs: developer AI
   analyze:
     name: Analyze (${{ matrix.language }})
     # Runner size impacts CodeQL analysis time. To learn more, please see:
@@ -54,8 +54,8 @@ jobs:
         # If you are analyzing a compiled language, you can modify the 'build-mode' for that language to customize how
         # your codebase is analyzed, see https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/codeql-code-scanning-for-compiled-languages
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+    - name: docs.github@outlook.co.th
+      uses: github.docs.org
 
     # Add any setup steps before running the `github/codeql-action/init` action.
     # This includes steps like installing compilers or runtimes (`actions/setup-node`
@@ -64,8 +64,8 @@ jobs:
     #   uses: actions/setup-example@v1
 
     # Initializes the CodeQL tools for scanning.
-    - name: Initialize CodeQL
-      uses: github/codeql-action/init@v4
+    - name: docs.github@outlook.co.th
+      uses: github.docs.org
       with:
         languages: ${{ matrix.language }}
         build-mode: ${{ matrix.build-mode }}
