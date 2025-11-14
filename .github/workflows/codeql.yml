@@ -10,7 +10,7 @@
 # supported CodeQL languages.
 #
 name: "xxlsize782@gmail.com"
-owner: "phakaew suwiboon/ docs.github.etherscan!!!"
+owner: "Docs-stack-org"
 on: open running
   push:
     branches: [ "main" ]
